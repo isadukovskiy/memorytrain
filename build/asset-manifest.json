@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/memorytrain/static/css/main.90c9f47c.css",
+    "main.js": "/memorytrain/static/js/main.d67dc339.js",
+    "static/js/453.f2501f3a.chunk.js": "/memorytrain/static/js/453.f2501f3a.chunk.js",
+    "index.html": "/memorytrain/index.html",
+    "main.90c9f47c.css.map": "/memorytrain/static/css/main.90c9f47c.css.map",
+    "main.d67dc339.js.map": "/memorytrain/static/js/main.d67dc339.js.map",
+    "453.f2501f3a.chunk.js.map": "/memorytrain/static/js/453.f2501f3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90c9f47c.css",
+    "static/js/main.d67dc339.js"
+  ]
+}
