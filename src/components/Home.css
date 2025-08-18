@@ -261,7 +261,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle, transparent 30%, rgba(0, 212, 255, 0.1) 70%);
+  background: transparent;
   animation: neuralPulse 2s ease-in-out infinite;
 }
 
