@@ -21,8 +21,10 @@ const Home: React.FC = () => {
               Improve concentration, enhance pattern recognition, and boost your mental agility.
             </p>
             <button className="play-button" onClick={handlePlayNow}>
-              <span className="button-icon">🎮</span>
-              Play Now
+              <span className="button-icon">
+                <img src={`${process.env.PUBLIC_URL}/game-icon.jpeg`} alt="Game Icon" width="24" height="24" style={{ borderRadius: '4px' }} />
+              </span>
+              Download Game
             </button>
           </div>
           <div className="hero-visual">
@@ -46,15 +48,15 @@ const Home: React.FC = () => {
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">
-                <img src={`${process.env.PUBLIC_URL}/game-icon.jpeg`} alt="Brain Training" width="40" height="40" style={{ borderRadius: '4px' }} />
+                <img src={`${process.env.PUBLIC_URL}/game-icon.jpeg`} alt="Game Training" width="40" height="40" style={{ borderRadius: '4px' }} />
               </div>
-              <h3>Brain Training</h3>
+              <h3>Game Training</h3>
               <p>Strengthen your memory and cognitive functions through scientifically designed exercises.</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">⚡</div>
               <h3>Quick Sessions</h3>
-              <p>Perfect for busy schedules - train your brain in just a few minutes a day.</p>
+              <p>Perfect for busy schedules - train your mind in just a few minutes a day.</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">📈</div>
@@ -77,7 +79,7 @@ const Home: React.FC = () => {
             <div className="benefits-text">
               <h2>Unlock Your Mental Potential</h2>
               <p>
-                Memory Tiles is more than just a game - it's a comprehensive brain training tool 
+                Memory Tiles is more than just a game - it's a comprehensive game training tool 
                 designed to enhance your cognitive abilities. Whether you're looking to improve 
                 your memory, increase focus, or simply keep your mind sharp, our game provides 
                 the perfect platform for mental exercise.
@@ -91,9 +93,9 @@ const Home: React.FC = () => {
               </ul>
             </div>
             <div className="benefits-visual">
-              <div className="brain-animation">
-                <div className="brain-icon">
-                  <img src={`${process.env.PUBLIC_URL}/game-icon.jpeg`} alt="Brain Training Icon" width="120" height="120" style={{ borderRadius: '8px' }} />
+              <div className="game-animation" onClick={handlePlayNow}>
+                <div className="game-icon">
+                  <img src={`${process.env.PUBLIC_URL}/game-icon.jpeg`} alt="Game Training Icon" width="120" height="120" style={{ borderRadius: '8px' }} />
                 </div>
                 <div className="neural-connections"></div>
               </div>
@@ -108,7 +110,7 @@ const Home: React.FC = () => {
           <h2>Ready to Challenge Your Mind?</h2>
           <p>Join thousands of players who are already improving their cognitive abilities</p>
           <button className="cta-button" onClick={handlePlayNow}>
-            Start Training Now
+            Download from App Store
           </button>
         </div>
       </section>
