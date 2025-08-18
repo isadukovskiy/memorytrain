@@ -7,7 +7,6 @@ const PrivacyPolicy: React.FC = () => {
       <div className="privacy-hero">
         <div className="container">
           <h1>Privacy Policy</h1>
-          <p>Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
         </div>
       </div>
 

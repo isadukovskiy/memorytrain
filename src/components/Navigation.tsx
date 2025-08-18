@@ -9,7 +9,9 @@ const Navigation: React.FC = () => {
     <nav className="navigation">
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          <div className="logo-icon">🧠</div>
+          <div className="logo-icon">
+            <img src={`${process.env.PUBLIC_URL}/game-icon.jpeg`} alt="Memory Tiles Logo" width="32" height="32" style={{ borderRadius: '4px' }} />
+          </div>
           <span className="logo-text">Memory Tiles</span>
         </Link>
         

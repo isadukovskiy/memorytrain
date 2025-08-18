@@ -45,7 +45,9 @@ const Home: React.FC = () => {
           <h2 className="section-title">Why Choose Memory Tiles?</h2>
           <div className="features-grid">
             <div className="feature-card">
-              <div className="feature-icon">🧠</div>
+              <div className="feature-icon">
+                <img src={`${process.env.PUBLIC_URL}/game-icon.jpeg`} alt="Brain Training" width="40" height="40" style={{ borderRadius: '4px' }} />
+              </div>
               <h3>Brain Training</h3>
               <p>Strengthen your memory and cognitive functions through scientifically designed exercises.</p>
             </div>
@@ -90,7 +92,9 @@ const Home: React.FC = () => {
             </div>
             <div className="benefits-visual">
               <div className="brain-animation">
-                <div className="brain-icon">🧠</div>
+                <div className="brain-icon">
+                  <img src={`${process.env.PUBLIC_URL}/game-icon.jpeg`} alt="Brain Training Icon" width="120" height="120" style={{ borderRadius: '8px' }} />
+                </div>
                 <div className="neural-connections"></div>
               </div>
             </div>
