@@ -74,6 +74,7 @@
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
   animation: fadeInUp 1s ease-out 0.4s both;
@@ -399,6 +400,10 @@
     width: 100%;
     max-width: 280px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
   }
   
   .game-preview {
@@ -526,6 +531,10 @@
   .play-button {
     padding: 0.7rem 1.5rem;
     font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
   }
   
   .game-preview {
