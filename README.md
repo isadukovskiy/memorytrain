@@ -6,7 +6,7 @@ A beautiful, responsive marketing website for the **Memory Tiles Game** - a brai
 
 Memory Tiles is a paid brain training game designed to improve memory, concentration, and cognitive skills. The game features engaging tile-matching puzzles that challenge your pattern recognition and memory retention abilities.
 
-**Download on Apple App Store:** [Memory Tile Game](https://apps.apple.com/us/app/memory-tile-game)
+**Download on Apple App Store:** [Memory Tile Game](https://apps.apple.com/us/app/memory-tiles-trainer/id6751095012)
 
 ## 🌐 Website Features
 

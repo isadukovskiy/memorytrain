@@ -3,7 +3,7 @@ import './Home.css';
 
 const Home: React.FC = () => {
   const handlePlayNow = () => {
-    window.open('https://apps.apple.com/us/app/memory-tile-game', '_blank');
+    window.open('https://apps.apple.com/us/app/memory-tiles-trainer/id6751095012', '_blank');
   };
 
   return (
