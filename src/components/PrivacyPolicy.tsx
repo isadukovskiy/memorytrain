@@ -34,8 +34,6 @@ const PrivacyPolicy: React.FC = () => {
               <ul>
                 <li><strong>Personal Information:</strong> We do not collect your name, email address, phone number, or any other personal identifiers.</li>
                 <li><strong>Location Data:</strong> We do not access, collect, or store your location information.</li>
-                <li><strong>Device Information:</strong> We do not collect device identifiers, IP addresses, or other device-specific data.</li>
-                <li><strong>Usage Analytics:</strong> We do not track your gameplay patterns, session duration, or in-app behavior.</li>
                 <li><strong>Payment Information:</strong> All payment processing is handled securely by Apple through the App Store. We do not have access to your payment details.</li>
               </ul>
             </section>
@@ -43,24 +41,27 @@ const PrivacyPolicy: React.FC = () => {
             <section className="policy-section">
               <h2>3. Information We May Collect</h2>
               <p>
-                The only information we may have access to is:
+                We may collect the following information:
               </p>
               <ul>
                 <li><strong>App Store Analytics:</strong> Apple may provide us with basic, anonymous analytics about app downloads and usage, which does not identify individual users.</li>
                 <li><strong>Crash Reports:</strong> If the app crashes, your device may send anonymous crash reports to Apple, which may be shared with us in an anonymized format.</li>
+                <li><strong>Google Analytics Data:</strong> We use Google Analytics to collect anonymous usage data, specifically tracking when the app is first opened. This data includes device information (such as device type, operating system), app usage patterns, and advertising identifiers for ads tracking purposes. This information does not personally identify you.</li>
               </ul>
             </section>
 
             <section className="policy-section">
               <h2>4. How We Use Information</h2>
               <p>
-                Since we do not collect personal information, there is no personal data to use. Any anonymous analytics 
-                we may receive are used solely to:
+                We do not collect personal information that identifies you individually. The anonymous data we collect 
+                through Google Analytics and other sources is used to:
               </p>
               <ul>
                 <li>Improve app performance and stability</li>
                 <li>Fix bugs and technical issues</li>
                 <li>Understand general usage patterns to enhance user experience</li>
+                <li><strong>Advertising and Marketing:</strong> Track app usage metrics (such as first-time app opens) to measure advertising campaign effectiveness and optimize marketing strategies</li>
+                <li><strong>Analytics and Insights:</strong> Generate insights about user engagement and app adoption rates</li>
               </ul>
             </section>
 
@@ -88,8 +89,12 @@ const PrivacyPolicy: React.FC = () => {
                 Privacy Policy for information about how they handle your data.
               </p>
               <p>
-                <strong>No Third-Party Analytics:</strong> We do not integrate any third-party analytics, 
-                advertising, or tracking services in our app.
+                <strong>Google Analytics:</strong> We use Google Analytics to collect anonymous usage data 
+                and track advertising metrics. Google Analytics may collect information about your device, 
+                app usage patterns, and advertising interactions. This data is processed according to 
+                Google's Privacy Policy. You can learn more about how Google processes data at 
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">https://policies.google.com/privacy</a> 
+                and opt out of Google Analytics tracking through your device settings.
               </p>
             </section>
 
